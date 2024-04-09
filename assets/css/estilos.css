@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -199,4 +203,28 @@ footer {
     padding: 80px;
     background: #02111f;
     color: gray;
+}
+
+/* Botão para voltar ao topo */
+.voltar-ao-topo {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #0A1128;
+    transform: rotate(-90deg);
+    border: 3px solid #0A1128;
+    text-decoration: none;
+}
+
+.voltar-ao-topo:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+    border-color: black;
 }
